@@ -25,10 +25,3 @@ app.post('/users',(req,res)=> {
     users.push(user);
     res.send(users);
 })
-
-function sum(a, b){
-    return a +b;
-
-function substract(a, b){
-    return a - b;
-}
