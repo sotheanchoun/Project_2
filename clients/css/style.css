@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     background: rgb(248, 242, 242);
     height: auto;
@@ -55,20 +56,24 @@ body {
 }
 .message-box{
     margin-top: 10px;
-}
+} 
 /* .others-messenge-box{
 } */
 .message{
+    
     max-width: 70%;
     border-radius: 5px;
     padding: 5px;
-    box-shadow: 0px 5px 10px grey;
+    box-shadow: 0px 5px 10px rgb(10, 54, 104);
 }
+
+
+
 .my-message{
     float: right;
-    background: #fff;
+    background: rgb(62, 180, 16);
     margin-right: 10px;
-    /* color: #fff; */
+    
 
 }
 .my-photo {
@@ -82,7 +87,7 @@ body {
 
 .others-message{
     float: left;
-    background: #fff;
+    background: rgb(199, 31, 31);
     margin-left: 10px;
 }.user-photo {
     float: left;
@@ -102,3 +107,13 @@ body {
     padding: 4px;
 }
 
+.t {
+    float: right;
+    
+}
+li {
+    background: rgb(248, 196, 196);
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+}
