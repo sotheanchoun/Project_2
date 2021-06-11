@@ -12,7 +12,7 @@ let users = [
     {username: "sophanna", password:"123", color: "red"},
     {username: "sothean", password:"123", color: "green"}
 ]
-app.get ('/users',(req,res)=>res.send(users))
+app.get ('/users',(req,res)=>res.send(users));
 
 
 
